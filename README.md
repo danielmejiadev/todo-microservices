@@ -3,6 +3,10 @@
 ## Description
 A Todo-App backend based on micro-services architecture using [NestJS](https://nestjs.com/)
 
+- There's an API-GATEWAY who receives the requests over http protocol and communicate with microservices to manage every resource.
+- There's an USERS-MICROSERVICE who receives the requests from gateway over tcp protocol and manage the database users.
+- There's an TASKS-MICROSERVICE who receives the requests from gateway over tcp protocol and manage the database tasks.
+
 To check demo, visit [REST-API](http://todo-app-backend-api.herokuapp.com/docs/) for more information.
 
 
